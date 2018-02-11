@@ -1,7 +1,6 @@
-board =
-"   "'|'"   "'|'"   "/next
-'___________'/next
-"   "'|'"   "'|'"   "/next
-'___________'/next
-"   "'|'"   "'|'"   "/next
-puts board
+def display_board
+  "   |   |   \n"
+"-----------\n"
+"   |   |   \n"
+      expected_output += "-----------\n"
+      expected_output += "   |   |   \n"
